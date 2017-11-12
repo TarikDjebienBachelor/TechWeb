@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />  
+  <title>TP1 : XHTML</title>
+</head>
+
+<body>
+<p>Premier  TD Machine</p>
+<h1>Exercice 1</h1>
+<h2>Utilisation d'une liste</h2>
+<p>Enseignement de la journée de lundi</p>
+<ul>
+ <li>TP AL    :  8h00-10h00</li>
+ <li>TD Proba : 10h15-11h45</li>
+ <li>TD TW    : 13h30-15h00</li>
+ <li>Cours ASD: 15h15-16h45</li>
+</ul>
+<h2>Utilisation d'un tableau</h2>
+<table>
+ <tr>
+  <td></td>
+  <td>Cours</td>
+  <td>TD</td>
+  <td>TP</td>
+ </tr>
+ <tr>
+  <td>Technologies du Web</td>
+  <td>Vendredi 13h30-15h00</td>
+  <td>Lundi 13h30-15h00</td>
+  <td>Mercredi 13h30-15h00</td>
+ </tr>
+ <tr>
+  <td>Automates et langages</td>
+  <td>Mardi 10h15-11h45</td>
+  <td>Jeudi 8h30-10h00</td>
+  <td>Lundi 8h00-10h00</td>
+ </tr>
+</table>
+<p>
+<a href="http://www.fil.univ-lille1.fr/Licence" title="le site de lille1">Lien vers la page de la license d'informatique</a>
+</p>
+<p><img/>
+</body>
+</html>

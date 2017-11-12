@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml11/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+<head>
+ <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+ <title>club des fans de Star Wars</title>
+ <style type="text/css">
+   body {
+     font-family : Helvetica ;
+     margin-left : 10mm;
+     margin-right : 10mm ;
+   }
+   h1 {
+     color : blue ;
+   }
+   fieldset {
+     border : 1px solid blue ;
+     margin : 10px ;
+   } 
+ </style>
+</head>
+<body>
+  <h1>Club des fans de StarWars</h1>
+
+  <p>Sur cette page, vous pouvez commander les figurines de vos personnages
+  préférés, et adhérer à notre club. </p>
+  
+  <form action="starWars.php" method = "post">
+    <fieldset>
+      <legend>Commande</legend>
+      <input name="fig[]" type="checkbox" value="Maître Yoda"/>Maître Yoda<br/>
+      <input name="fig[]" type="checkbox" value="Luke Skywalker"/>Luke Skywalker<br/>
+      <input name="fig[]" type="checkbox" value="Anakin Skywalker"/>Anakin Skywalker<br/>
+      <input name="fig[]" type="checkbox" value="Dark Vador"/>Dark Vador<br/>
+      <input name="fig[]" type="checkbox" value="Obi-Wan Kenobi"/>Obi-Wan Kenobi<br/>
+      <input name="fig[]" type="checkbox" value="Han Solo"/>Han Solo<br/>
+      <input name="fig[]" type="checkbox" value="Princesse Leia"/>Princesse Leia<br/>
+      <input name="fig[]" type="checkbox" value="Padmée Amidala"/>Padmée Amidala<br/>
+      <input name="fig[]" type="checkbox" value="Empereur Palpatine"/>Empereur Palpatine<br/>
+      <input name="fig[]" type="checkbox" value="R2D2"/>R2D2<br/>
+      <input name="fig[]" type="checkbox" value="C3PO"/>C3PO<br/>
+      <input name="fig[]" type="checkbox" value="Chewbacca"/>Chewbacca<br/>
+    </fieldset>
+    <fieldset>
+      <legend>Adhésion</legend>
+      <p>Si vous êtes membres du club, vous bénéficiez d'une réduction de 10% sur votre commande de figurines</p>
+      <select name="adhesion">
+        <option value="dejaMembre">Je suis déjà membre</option>
+        <option value="oui">J'adhère au club (tarif 5 euros)</option>
+        <option value="non">non je n'adhère pas au club</option>
+      </select>
+    </fieldset>
+    <fieldset>
+      <legend>Vos coordonnées</legend>
+      <select name="MrMmeMlle">
+        <option value="Mr">Monsieur</option>
+        <option value="Mme">Madame</option>
+        <option value="Mlle">Mademoiselle</option>
+      </select>
+      <label>Nom : </label><input maxlength="256" name="nom" size="40" type="text"/>
+      <label>Prénom : </label><input maxlength="256" name="prenom" size="40" type="text"/><br/>
+      <label>Adresse postale :</label><br/>
+      <textarea name = "adresse" cols="100" rows="5">
+      </textarea>
+    </fieldset>
+    <fieldset>
+      <input type="reset" value="effacer"/>&nbsp;&nbsp;&nbsp;<input type="submit" value="envoyer"/>
+    </fieldset>
+  </form>
+</body>

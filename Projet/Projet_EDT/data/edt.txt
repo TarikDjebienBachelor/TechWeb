@@ -1,0 +1,54 @@
+cours;ASD;0;lundi;15;15;16;45;M5 Bacchus
+cours;AL;0;mardi;10;15;11;45;SUP 13
+cours;POO;0;jeudi;10;15;11;45;SUP 13
+cours;Proba;0;mardi;13;15;14;15;P1 Bohr
+cours;AN;1;mardi;14;30;15;30;P1 Bohr
+cours;TW;0;vendredi;13;30;15;00;M5 Bacchus
+td;ANG;1;vendredi;10;15;12;15;B5 005/B5 104L
+td;ANG;2;vendredi;10;15;12;15;B5 005/B5 104L
+td;ANG;3;vendredi;8;00;10;00;B5 010/B5 110L
+td;ANG;4;vendredi;8;00;10;00;B5 006/B5 103L
+td;TEC;1;vendredi;8;00;10;00;B5-206
+td;TEC;2;vendredi;8;00;10;00;SUP 102
+td;TEC;3;vendredi;10;15;12;15;B5-206
+td;TEC;4;vendredi;10;15;12;15;SUP 1
+td;ASD;1;lundi;13;30;15;00;M5 A9
+tp;ASD;1;mercredi;15;15;16;45;SUP 116
+td;AL;1;mercredi;13;30;15;00;SUP 008
+tp;AL;1;lundi;8;00;10;00;M5 A11
+td;POO;1;lundi;10;15;11;45;M5 A9
+tp;POO;1;jeudi;8;30;10;00;M5 A14
+td-tp;AN;1;mardi;8;30;10;00;M5 A7/M5 A16
+td;Proba;1;mercredi;8;30;10;00;M5 A4
+td;TW;1;mercredi;10;15;11;45;M5 A4
+tp;TW;1;vendredi;15;15;16;45;SUP 117
+td;ASD;2;mercredi;15;15;16;45;M5 A9
+tp;ASD;2;mardi;15;45;17;15;M5 A13
+td-tp;AN;2;mercredi;8;30;10;00;M5 A7/M5 A16
+td;POO;2;mercredi;13;30;15;00;M5 A9
+tp;POO;2;mardi;8;30;10;00;M5 A11
+td;AL;2;mercredi;10;15;11;45;M5 A5
+tp;AL;2;lundi;8;00;10;00;M5 A12
+td;Proba;2;lundi;13;30;15;00;SUP 008
+td;TW;2;lundi;10;15;11;45;M5 A8
+tp;TW;2;jeudi;8;30;10;00;M5 B10
+td;ASD;3;mercredi;15;15;16;45;M5 A5
+tp;ASD;3;mardi;8;30;10;00;SUP 116
+td;AL;3;jeudi;8;30;10;00;M5 A8
+tp;AL;3;lundi;8;00;10;00;M5 A13
+td;POO;3;mercredi;8;30;10;00;M5 A9
+tp;POO;3;mercredi;10;15;11;45;M5 A12
+td;Proba;3;lundi;10;15;11;45;M5 A7
+td-tp;AN;3;vendredi;15;15;16;45;M5 A7/M5 A16
+td;TW;3;lundi;13;30;15;00;M5 A1
+tp;TW;3;mercredi;13;30;15;00;SUP 116
+td;ASD;4;lundi;13;30;15;00;M5-A7
+tp;ASD;4;mardi;8;30;10;00;SUP 117
+td;AL;4;jeudi;8;30;10;00;M5-A4
+tp;AL;4;lundi;8;00;10;00;M5 A14
+tp;POO;4;mercredi;15;15;16;45;M5 A12
+td;POO;4;mercredi;13;30;15;00;M5 A8
+td;Proba;4;lundi;10;15;11;45;M5 A6
+td-tp;AN;4;mercredi;10;15;11;45;M5 A1/M5 A16
+td;TW;4;mercredi;8;30;10;00;M5 A1
+tp;TW;4;vendredi;15;15;16;45;M5 B7

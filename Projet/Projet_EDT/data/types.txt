@@ -1,0 +1,4 @@
+cours;Cours
+td;TD
+tp;TP
+td-tp;TD / TP

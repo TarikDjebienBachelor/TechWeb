@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>TP3 : menu CSS</title>
+  <link rel="stylesheet" type="text/css" href="tp3.css" />
+</head>
+
+<body>
+    <ul id="menu">
+      <li>
+        <a href="#blocs">Les balises de bloc</a> <span class="info">titres,§,div,...</span>
+      </li>
+      <li>
+        <a href="#inlines">Les balises en ligne</a> <span class="info">Images, liens,...</span>
+      </li>
+      <li>
+        <a href="#semantiques_inlines">Les balises de sémantique en ligne</a> <span class="info">emphase,...</span>
+      </li>
+      <li>
+        <a href="#semantiques_blocs">Les balises de sémantique bloc</a> <span class="info">citations,...</span>
+      </li>
+      <li>
+        <a href="#listes">Les listes</a> <span class="info">numérotées, ou pas</span>
+      </li>
+      <li>
+        <a href="#tableaux">Les tableaux</a> <span class="info">et leur structure</span>
+      </li>
+      <li>
+        <a href="#attributs">Autres attributs</a> <span class="info">de tout, en vrac</span>
+      </li>
+      <li>
+        <a href="#adresses">Rappel sur les adresses</a> <span class="info">absolues/relatives</span>
+      </li>
+      <li>
+        <a href="#modeles">Modèles pré-conçus</a> <span class="info">qquelettes de documents</span>
+      </li>
+    </ul>
+    
+    <hr class = "delimiteur"/>
+
+    <h1>Aide-mémoire HTML</h1>
+
+    <p class="intro">Voici toutes les balises nécessaires pour faire une page HTML 4.01 Strict, ainsi que quelques attributs.<br/>
+  Les balises et attributs de présentations ont été volontairements supprimés, car ils sont mieux traités en CSS.<br/>
+  Si vous avez compris le fonctionnement du HTML, cette page fera office d'aide-mémoire (voir de référence).</p>
+
+
+  <h2><a name="blocs"></a>Les balises de bloc</h2>
+  <ul>
+    <li><code>&lt;h1&gt;&lt;/h1&gt;</code> : <strong>Titre de page</strong> (une seule fois en tout début),</li>
+    <li><code>&lt;h2&gt;&lt;/h2&gt;</code> à <code>&lt;h6&gt;&lt;/h6&gt;</code> : <strong>Sous-titres</strong> (hiérarchisés du plus important (h2) au plus précis (h6)),</li>
+    <li><code>&lt;p&gt;&lt;/p&gt;</code> : <strong>Paragraphe</strong> (la plupart des textes de vos pages s'y trouvent),</li>
+    <li><code>&lt;div&gt;&lt;/div&gt;</code> : <strong>Division</strong> (bloc générique),</li>
+  </ul>
+
+  <h2><a name="inlines"></a>Les balises en ligne</h2>
+  <ul>
+    <li><code>&lt;br&gt;</code> : <strong>Saut de ligne</strong>,</li>
+    <li><code>&lt;a href="cible"&gt;Texte&lt;/a&gt;</code> : <strong>Lien</strong> Texte vers l'adresse cible,</li>
+    <li><code>&lt;img src="adresse_image" alt="texte_alternatif"  width="x" height="y"&gt;</code> : <strong>Image</strong> contenue dans le fichier adresse_image,</li>
+    <li><code>&lt;a name="NomDeLAncre"&gt;&lt;/a&gt;</code> : <strong>Ancre</strong> (pour faire un lien vers une ancre : <code>&lt;a href="page.html#ancre"&gt;Texte_du_lien&lt;/a&gt;</code>),</li>
+  </ul>
+
+  <h2><a name="semantiques_inlines"></a>Les balises de sémantique en ligne</h2>
+  <ul>
+    <li><code>&lt;sup&gt;&lt;/sup&gt;</code> : <strong>Exposant</strong>,</li>
+    <li><code>&lt;sub&gt;&lt;/sub&gt;</code> : <strong>Indice</strong>,</li>
+  </ul>
+  
+  <ul>
+    <li><code>&lt;em&gt;&lt;/em&gt;</code> : <strong>Amphase</strong> (EMphasized, en anglais) (usuellement en italique).</li>
+    <li><code>&lt;strong&gt;&lt;/strong&gt;</code> : <strong>Amphase forte</strong> (usuellement en gras),</li>
+  </ul>
+  <ul>
+    <li><code>&lt;abbr title="Signification"&gt;Abbr.&lt;/abbr&gt;</code> : <strong>Abréviation</strong>,</li>
+    <li><code>&lt;acronym title="Signification"&gt;S.I.G.L.E.&lt;/acronym&gt;</code> : <strong>Sigle</strong> (innitiales),</li>
+    <li><code>&lt;dfn&gt;&lt;/dfn&gt;</code> : <strong>Définition d'un terme</strong> ,</li>
+    <li><code>&lt;cite&gt;&lt;/cite&gt;</code> : <strong>Citation</strong>,</li>
+    <li><code>&lt;del cite="adresse" datetime="2004-02-18T00:00:00-05:00" title="Explication"&gt;&lt;/del&gt;</code> : <strong>Partie supprimée</strong> (bloc ou en ligne),</li>
+    <li><code>&lt;ins cite="adresse" datetime="2004-02-18T00:00:00-05:00" title="Explication"&gt;&lt;/ins&gt;</code> : <strong>Partie insérée</strong> (bloc ou en ligne),</li>
+  </ul>
+  
+  <ul>
+    <li><code>&lt;code&gt;&lt;/code&gt;</code> : <strong>Code informatique</strong>,</li>
+    <li><code>&lt;kbd&gt;&lt;/kbd&gt;</code> : <strong>Texte à rentrer par l'utilisateur</strong> (texte ou touche(s)),</li>
+    <li><code>&lt;samp&gt;&lt;/samp&gt;</code> : <strong>Exemple de sortie</strong>,</li>
+    <li><code>&lt;var&gt;&lt;/var&gt;</code> : <strong>Variable</strong> (mathématique ou informatique),</li>
+  </ul>
+
+  <ul>
+    <li><code>&lt;span&gt;&lt;/span&gt;</code> : <strong>Bloc en ligne générique</strong> (utilisé pour définir une langue ou un style différent, par exemple),</li>
+    <li>q cite="" (short Quotation) : court : équivalent inline de blockquote</li>
+  </ul>
+
+  <h2><a name="semantiques_blocs"></a>Les balises de sémantique bloc</h2>
+  <ul>
+    <li><code>&lt;hr&gt;</code> : <strong>Ligne horizontale</strong>,</li>
+    <li><code>&lt;blockquote cite="adresse"&gt;&lt;/blockquote&gt;</code> : <strong>Bloc de citation</strong>,</li>
+    <li><code>&lt;adress&gt;&lt;/adress&gt;</code> : <strong>Informations de contact</strong>,</li>
+    <li><code>&lt;del&gt;&lt;/del&gt;</code> et <code>&lt;ins&gt;&lt;/ins&gt;</code> sont aussi des blocs en ligne (c.f. plus haut),</li>
+  </ul>
+
+  <h2><a name="listes"></a>Les listes</h2>
+  <ul>
+    <li><code>&lt;ul&gt;&lt;/ul&gt;</code> : <strong>Liste non ordonnée</strong> (lise à puces, rondes ou carrées),</li>
+    <li><code>&lt;ol&gt;&lt;/ol&gt;</code> : <strong>Liste ordonnée</strong> (numérotée, 1. pour le premier, 2., etc...),</li>
+    <li><code>&lt;li&gt;&lt;/li&gt;</code> : <strong>Ligne de liste</strong> (impérativement à l'interieur d'un &lt;ul&gt; ou d'un &lt;ol&gt;),</li>
+    <li><code>&lt;dl&gt;&lt;/dl&gt;</code> : <strong>Liste de définitions</strong>,</li>
+    <li><code>&lt;dt&gt;&lt;/dt&gt;</code> : <strong>Item de Terme</strong> à définir,</li>
+    <li><code>&lt;dd&gt;&lt;/dd&gt;</code> : <strong>Item de Définition</strong>.</li>
+  </ul>
+
+  <h2><a name="tableaux"></a>Les tableaux</h2>
+  <ul>
+    <li><code>&lt;table summary="Texte"&gt;&lt;/table&gt;</code> : <strong>Tableau</strong>, où summary (facultatif) décrit le contenu du tableau,</li>
+    <li><code>&lt;caption&gt;&lt;/caption&gt;</code> : <strong>Légende de tableau</strong> (ne peut contenir que des blocs en ligne),</li>
+    <li><code>&lt;thead&gt;&lt;/thead&gt;</code> : <strong>En-tête de tableau</strong>,</li>
+    <li><code>&lt;tbody&gt;&lt;/tbody&gt;</code> : <strong>corps du tableau</strong>,</li>
+    <li><code>&lt;tfoot&gt;&lt;/tfoot&gt;</code> : <strong>Pied de tableau</strong>,</li>
+    <li><code>&lt;tr&gt;&lt;/tr&gt;</code> : <strong>Ligne de tableau</strong> (Table Row),</li>
+    <li><code>&lt;td&gt;&lt;/td&gt;</code> : <strong>Celulle de tableau</strong> (Table Data),</li>
+    <li><code>&lt;th&gt;&lt;/th&gt;</code> : <strong>Cellules d'en-tête pour tableaux</strong>.</li>
+  </ul>
+
+  <h2><a name="attributs"></a>Autres attributs</h2>
+  <p>Ces attributs sont valables pour toutes les balises</p>
+  <ul>
+    <li><code>title="info_bulle"</code> : <strong>Informations complémentaires</strong>, habituellement affichées dans des info-bulles.</li>
+    <li><code>lang="fr"</code> : <strong>Langue du contenu</strong>, si elle est différente de celle de la page : fr, en, de... ,</li>
+    <li><code>dir=""</code> : <strong>Direction de lexture</strong>, de gauche à droite () ou de droite à gauche,</li>
+    <li><code>class="nom_classe"</code> : <strong>Classe CSS</strong>,</li>
+    <li><code>id="nom_id"</code> : <strong>Identifiant CSS ou Javascript</strong>,</li>
+    <li><code>style="règle_style"</code> : <strong>Style CSS en ligne</strong>, fortement déconseillé (utiliser plutôt une classe),</li>
+  </ul>
+
+  <h2><a name="adresses"></a>Rappel sur les adresses (liens et images)</h2>
+  <ul>
+    <li><strong>Les adresses absolues</strong> : adresse <strong>complète</strong>
+d'un fichier. Par exemple : http://www.kde.org/index.html ou encore
+C:\Site\index.html . Fortement déconseillé pour des liens à l'intérieur
+du site,</li>
+    <li><strong>Les adresses relatives</strong> : adresse <strong>relative à la page courante</strong> d'un fichier. À utiliser pour lier une page ou une image du même site.
+    <ul>
+      <li>"image.png" : ce fichier se trouve dans le <strong>même dossier</strong> que la page en cours,</li>
+      <li>"fichiers/image.png" : ce fichier se trouve dans le <strong>sous dossier</strong> "fichiers/", relativement à l'emplacement de la page courrante,</li>
+      <li>"../image.png" : ce fichier se trouve dans le dossier <strong>parent</strong> de celui qui contient la page en cours.</li>
+    </ul>
+    </li>
+  </ul>
+
+  <h2><a name="modeles"></a>Modèles pré-conçus</h2>
+
+  <h3>Squelette de tout fichier HTML</h3>
+  <p>Vous
+pouvez très bien faire un copier / coller de cette structure pour
+démarrer une nouvelle page (ce qui est dans le body est juste une
+suggestion de structure) :</p>
+  
+  <pre>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+         "http://www.w3.org/TR/html4/strict.dtd"&gt;
+&lt;html lang="fr"&gt;
+  &lt;head&gt;
+    &lt;title&gt;Titre de la page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Titre de la page&lt;/h1&gt;
+    &lt;p class="intro"&gt;Introduction&lt;/p&gt;
+
+    &lt;h2&gt;Première partie&lt;/h2&gt;
+    &lt;p&gt;Premier paragraphe&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</pre>
+
+  <h3>Squelette de deux listes imbriquées</h3>
+  
+  <pre>&lt;ul&gt;
+  &lt;li&gt;Ligne&lt;/li&gt;
+  &lt;li&gt;Ligne qui introduit la sous-liste :
+    &lt;ul&gt;
+      &lt;li&gt;Ligne&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</pre>
+
+
+</body>
+</html>

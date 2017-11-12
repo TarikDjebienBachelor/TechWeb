@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>javascript</title>
+  <script type="text/javascript" src="menu.js"/> 
+  <style type="text/css">
+    @import url(menu.css);
+  </style>
+</head>
+
+<body>
+
+    <h1>Aide-mémoire HTML</h1>
+    
+    <ul id="menu">
+      <li>
+        <a href="#listes">Les listes</a>
+      </li>
+      <li>
+        <a href="#tableaux">Les tableaux</a>
+      </li>
+      <li>
+        <a href="#attributs">Autres attributs</a>
+      </li>
+    </ul>
+    
+  <div id="listes">
+  <h2>Les listes</h2>
+  <ul>
+    <li><code>&lt;ul&gt;&lt;/ul&gt;</code> : <strong>Liste non ordonnée</strong> (lise à puces, rondes ou carrées),</li>
+    <li><code>&lt;ol&gt;&lt;/ol&gt;</code> : <strong>Liste ordonnée</strong> (numérotée, 1. pour le premier, 2., etc...),</li>
+    <li><code>&lt;li&gt;&lt;/li&gt;</code> : <strong>Ligne de liste</strong> (impérativement à l'interieur d'un &lt;ul&gt; ou d'un &lt;ol&gt;),</li>
+    <li><code>&lt;dl&gt;&lt;/dl&gt;</code> : <strong>Liste de définitions</strong>,</li>
+    <li><code>&lt;dt&gt;&lt;/dt&gt;</code> : <strong>Item de Terme</strong> à définir,</li>
+    <li><code>&lt;dd&gt;&lt;/dd&gt;</code> : <strong>Item de Définition</strong>.</li>
+  </ul>
+  </div>
+
+  <div id="tableaux">
+  <h2>Les tableaux</h2>
+  <ul>
+    <li><code>&lt;table summary="Texte"&gt;&lt;/table&gt;</code> : <strong>Tableau</strong>, où summary (facultatif) décrit le contenu du tableau,</li>
+    <li><code>&lt;caption&gt;&lt;/caption&gt;</code> : <strong>Légende de tableau</strong> (ne peut contenir que des blocs en ligne),</li>
+    <li><code>&lt;thead&gt;&lt;/thead&gt;</code> : <strong>En-tête de tableau</strong>,</li>
+    <li><code>&lt;tbody&gt;&lt;/tbody&gt;</code> : <strong>corps du tableau</strong>,</li>
+    <li><code>&lt;tfoot&gt;&lt;/tfoot&gt;</code> : <strong>Pied de tableau</strong>,</li>
+    <li><code>&lt;tr&gt;&lt;/tr&gt;</code> : <strong>Ligne de tableau</strong> (Table Row),</li>
+    <li><code>&lt;td&gt;&lt;/td&gt;</code> : <strong>Celulle de tableau</strong> (Table Data),</li>
+    <li><code>&lt;th&gt;&lt;/th&gt;</code> : <strong>Cellules d'en-tête pour tableaux</strong>.</li>
+  </ul>
+  </div>
+
+  <div id = "attributs">
+  <h2>Autres attributs</h2>
+  <p>Ces attributs sont valables pour toutes les balises</p>
+  <ul>
+    <li><code>title="info_bulle"</code> : <strong>Informations complémentaires</strong>, habituellement affichées dans des info-bulles.</li>
+    <li><code>lang="fr"</code> : <strong>Langue du contenu</strong>, si elle est différente de celle de la page : fr, en, de... ,</li>
+    <li><code>dir=""</code> : <strong>Direction de lexture</strong>, de gauche à droite () ou de droite à gauche,</li>
+    <li><code>class="nom_classe"</code> : <strong>Classe CSS</strong>,</li>
+    <li><code>id="nom_id"</code> : <strong>Identifiant CSS ou Javascript</strong>,</li>
+    <li><code>style="règle_style"</code> : <strong>Style CSS en ligne</strong>, fortement déconseillé (utiliser plutôt une classe),</li>
+  </ul>
+  </div>
+
+
+
+</body>
+</html>

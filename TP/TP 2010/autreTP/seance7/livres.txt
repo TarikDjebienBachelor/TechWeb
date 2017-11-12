@@ -1,0 +1,17 @@
+Perl precis et concis
+J. Vromans
+
+ADN, mots et modeles
+Stephane Robin, Francois Rodolphe,  Sophie Schbath
+Editions Belin
+
+Computational Modeling of Genetics and Biochemical Networks
+James M. Bower, H. Bolouri
+MIT Press
+
+Introduction a l'analyse genetique
+Griffith, Miller, Suzuki, Lewontin, Gelbart
+De Boeck-Universite
+
+XML langage et applications
+A. Michard

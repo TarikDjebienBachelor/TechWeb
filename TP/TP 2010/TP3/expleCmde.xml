@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="Cmde.css" type="text/css" ?>
+<Commande>
+  <Client>
+    <Nom>Bill Buckram</Nom>
+    <Carte>234 234 234 234</Carte>
+  </Client>
+  <Articles>
+    <Item>
+      <ID>209</ID>
+      <Titre>
+ Duke: A Biography of the Java Evangelist </Titre>
+      <Quantite>1</Quantite>
+      <PrixUnit>10.75</PrixUnit>
+    </Item>
+    <Item>
+      <ID>208</ID>
+      <Titre>
+ 100% Pure: Making Cross Platform Deployment a Reality </Titre>
+      <Quantite>1</Quantite>
+      <PrixUnit>10.75</PrixUnit>
+    </Item>
+    <Item>
+      <ID>204</ID>
+      <Titre>
+ Making the Transition from C++ to the Java(tm) Language </Titre>
+      <Quantite>1</Quantite>
+      <PrixUnit>10.75</PrixUnit>
+    </Item>
+    <Item>
+      <ID>210</ID>
+      <Titre>
+ I Think Not: Dukes Likeness to the Federation Insignia </Titre>
+      <Quantite>1</Quantite>
+      <PrixUnit>10.75</PrixUnit>
+    </Item>
+  </Articles>
+  <Recu>
+    <SousTotal>53.75</SousTotal>
+    <TVA>4.43</TVA>
+    <Total>58.18</Total>
+  </Recu>
+</Commande>                                                                                                
